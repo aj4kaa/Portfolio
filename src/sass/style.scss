@@ -4,9 +4,14 @@
 @import "base/animation";
 
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: $col-text;
 }
-
+// body {
+// 	margin-top: 80px;
+// 	background-color: $col-bg;
+// }
 input {
 	outline: none;
 }
@@ -17,7 +22,9 @@ button:active, button:focus {
 
 .container {
 	position: relative;
-	max-width: 1141px;
+	max-width: 1140px;
+	margin: 0 auto;
+	height: 100%;
 }
 
 a:hover {

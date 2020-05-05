@@ -5,15 +5,18 @@
 	<title>Title</title>
 	<meta name="description" content="Startup HTML template OptimizedHTML 5">
 	<meta name="viewport" content="width=device-width">
-	<link rgitel="icon" href="img/favicon.png">
+	<link rel="icon" href="img/favicon.png">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+
 	<header class="header">
 		<div class="container">
 			<div class="header__wrap">
 				<a href="#sec1" class="header__logo">
-					<img src="#" alt="logo">
+					<svg class="header__svg">
+						<use xlink:href="img/symbol-icons.svg#svg-logo"/>
+					</svg>
 				</a>
 				<nav class="nav-menu">
 					<ul class="nav-menu__links">
@@ -24,9 +27,21 @@
 					</ul>
 				</nav>
 				<div class="social">
-					<a href="https://vk.com/httpsvk.comid87845041" target="_blank" class="social__icon"><span class="#">1</span></a>
-					<a href="https://www.instagram.com/psy.krd/" target="_blank" class="social__icon"><span class="#">2</span></a>
-					<a href="https://teleg.run/vremyaperemen_krd" target="_blank" class="social__icon"><span class="#">3</span></a>
+					<a href="https://vk.com/httpsvk.comid87845041" target="_blank" class="social__link">
+						<svg class="social__svg">
+							<use xlink:href="img/symbol-icons.svg#svg-vk"/>
+						</svg>
+					</a>
+					<a href="https://www.instagram.com/psy.krd/" target="_blank" class="social__link">
+						<svg class="social__svg">
+							<use xlink:href="img/symbol-icons.svg#svg-telega"/>
+						</svg>
+					</a>
+					<a href="https://teleg.run/vremyaperemen_krd" target="_blank" class="social__link">
+						<svg class="social__svg">
+							<use xlink:href="img/symbol-icons.svg#svg-phone	"/>
+						</svg>
+					</a>
 				</div>
 				<div class="hamburger">
 					<span></span>
@@ -36,6 +51,7 @@
 			</div>
 		</div>
 	</header>
+
 	<section class="promo">
 		<div class="container">
 			<div class="promp__wrap">
@@ -49,6 +65,7 @@
 			</div>
 		</div>
 	</section>
-<script src="js/script.js"></script>	
+
+<script src="js/script.js"></script>
 </body>
 </html>
