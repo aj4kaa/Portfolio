@@ -1,6 +1,22 @@
 .promo {
-	padding: 194px 0 20px 0;
-	height: 1000px;
-	background: url('../img/bg/promo_bg.png') no-repeat top center;
+	padding: 194px 0 207px 0;
+	height: 800px;
+	background: url('../img/bg/promo_bg.png') center (center/cover) no-repeat;
 	background-color: $col-bg;
+	&__wrap {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		padding: 0 10px;
+	}
+	&__title {
+		font-family: 'Montserrat';
+		font-size: 36px;
+	}
+	&__descr {
+		line-height: 35px;
+		font-size: 22px;
+	}
 }
