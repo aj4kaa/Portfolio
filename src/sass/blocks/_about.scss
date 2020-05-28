@@ -1,8 +1,8 @@
 .about {
 	padding: 41px 0 50px 0;
-	background: url('../img/bg/abouasd.png') center (center/cover) no-repeat;
+	background: url('../img/bg/about_bg.png') center (center/cover) no-repeat;
 	background-color: $col-bg;
-	height: 993px;
+	height: 370px;
 	&__photo {
 		position: relative;
 		border: 1px solid #2C2C2C;
@@ -28,9 +28,6 @@
 		flex-wrap: wrap;
 		justify-content: space-around;
 		align-items: center;
-	}
-	&__title {
-
 	}
 	&__descr {
 		width: 52%;
